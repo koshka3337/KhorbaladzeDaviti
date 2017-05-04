@@ -1,0 +1,40 @@
+body{
+    padding-top: 50px;
+
+}
+#headerWrapper{
+    position: relative;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    height: 800px;
+    background-image:url("../images/headerlogo/background1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px ;
+    background-position: top center;
+    background-attachment: fixed;
+}
+#logotext{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/headerlogo/text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 250px;
+    top:50%;
+    margin-top: -90px;
+}
+.img-thumb{
+    width: auto;
+    height: 150px;
+}
+#footer{
+   width: 30px;
+    margin: 15px auto;
+
+}
+img.details{
+    width: 40%;
+   margin: 15px auto;
+}
